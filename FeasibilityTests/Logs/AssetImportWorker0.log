@@ -1,0 +1,769 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16278 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52452
+Successfully changed project path to: C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests
+C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [63288] Host "[IP] 10.0.0.227 [Port] 0 [Flags] 2 [Guid] 1750219845 [EditorId] 1750219845 [Version] 1048832 [Id] WindowsEditor(7,toshifer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [63288] Host "[IP] 10.0.0.227 [Port] 0 [Flags] 2 [Guid] 1750219845 [EditorId] 1750219845 [Version] 1048832 [Id] WindowsEditor(7,toshifer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 43.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.037912 seconds.
+- Loaded All Assemblies, in  1.067 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1595ms
+	BeginReloadAssembly (337ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (193ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (357ms)
+			TypeCache.Refresh (354ms)
+				TypeCache.ScanAssembly (321ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.706 seconds
+Refreshing native plugins compatible for Editor in 8.49 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.328 seconds
+Domain Reload Profiling: 3023ms
+	BeginReloadAssembly (351ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (1116ms)
+		LoadAssemblies (922ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (343ms)
+				TypeCache.ScanAssembly (323ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (943ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (689ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 10.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3587.
+Memory consumption went from 121.6 MB to 121.5 MB.
+Total: 4.392100 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.325900 ms MarkObjects: 3.629300 ms  DeleteObjects: 0.130400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1331147.557485 seconds.
+  path: Assets/Scripts/CameraTraversal.cs
+  artifactKey: Guid(9949c95ed9d8ea240b7545d0d92c2f7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CameraTraversal.cs using Guid(9949c95ed9d8ea240b7545d0d92c2f7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2df1c4c970bdacfe7e237877e73d4ed7') in 0.266595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b5528167d66d311938e22c8f0cf1b42') in 0.025415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3587.
+Memory consumption went from 71.8 MB to 71.8 MB.
+Total: 6.938700 ms (FindLiveObjects: 0.333900 ms CreateObjectMapping: 0.325300 ms MarkObjects: 6.251400 ms  DeleteObjects: 0.026900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 330.857447 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 127.035032 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Unity/IUnityGraphicsD3D12.h
+  artifactKey: Guid(082f26213569b33428d26bd47496e9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Unity/IUnityGraphicsD3D12.h using Guid(082f26213569b33428d26bd47496e9b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd0427b06cc5cb349e0aedd36d77a397') in 0.058774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001278 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Spout
+  artifactKey: Guid(7f62ffde6e48af143bd1884ef2bcf8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Spout using Guid(7f62ffde6e48af143bd1884ef2bcf8fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c70fee3cc2f8f30a15cad1ad1d76bc93') in 0.027956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/SpoutSenderEditor.cs
+  artifactKey: Guid(fc439e99c3b27a84d9c454cc1d5b6b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/SpoutSenderEditor.cs using Guid(fc439e99c3b27a84d9c454cc1d5b6b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e78c28394d3dfabb9e4aa27042c68a5d') in 0.025554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin
+  artifactKey: Guid(d498d981bd5f03e4fa9d8bc68248254a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin using Guid(d498d981bd5f03e4fa9d8bc68248254a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1407ed93fc26298b2101499ca22c130') in 0.123561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Spout/SpoutSharedMemory.h
+  artifactKey: Guid(daa89b4f573e19b4ea7ad3ef87c25881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Spout/SpoutSharedMemory.h using Guid(daa89b4f573e19b4ea7ad3ef87c25881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c204fe61d942132f8e6e5f2dc2e6e0a') in 0.032826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/Klak.Spout.Editor.asmdef
+  artifactKey: Guid(ec622b3d6535ff8439ade6053d8cae77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/Klak.Spout.Editor.asmdef using Guid(ec622b3d6535ff8439ade6053d8cae77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd51d745117c0b48ac3f9dec039bbd800') in 0.024948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/UnityConnectSettings.asset
+  artifactKey: Guid(b0d81e922b19def4abfce50554c16095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/UnityConnectSettings.asset using Guid(b0d81e922b19def4abfce50554c16095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b83ea6b46d15046ac4e9f26963247793') in 0.023491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/AudioManager.asset
+  artifactKey: Guid(8695ddf1f3942e545b75ed3d4f0cfb99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/AudioManager.asset using Guid(8695ddf1f3942e545b75ed3d4f0cfb99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd3b6dcbbee831669a3c955243a94ec4') in 0.020131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/Utility.cs
+  artifactKey: Guid(046871cac1ec1b4469fb38e622947ee2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/Utility.cs using Guid(046871cac1ec1b4469fb38e622947ee2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5297792e30a396160f39eb2a0bc9d95b') in 0.028491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/Script/ReceiverBenchmark.cs
+  artifactKey: Guid(4708590fedf20d04eb3da3b108de12ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/Script/ReceiverBenchmark.cs using Guid(4708590fedf20d04eb3da3b108de12ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50a7f3f63d73e1b3a753e3181dc71a20') in 0.023614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Spout
+  artifactKey: Guid(61640400918342e49abf249115aaabff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout using Guid(61640400918342e49abf249115aaabff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cae84eec260c0f7d388e0d5714290c9f') in 0.026097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Unity/IUnityInterface.h
+  artifactKey: Guid(2e973ba6b5d255145a64ffed73742c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Unity/IUnityInterface.h using Guid(2e973ba6b5d255145a64ffed73742c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b3aa232cdf715d7e1e6b83017d09d28') in 0.031757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/Buffer/Alpha.renderTexture
+  artifactKey: Guid(ff94f91c62216aa4b8b027f13fe15303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/Buffer/Alpha.renderTexture using Guid(ff94f91c62216aa4b8b027f13fe15303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '152ee4e2c55525bc2fb0b74ec34d8d33') in 0.049372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/VersionControlSettings.asset
+  artifactKey: Guid(709383aceb73e6d4da81fa23801779f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/VersionControlSettings.asset using Guid(709383aceb73e6d4da81fa23801779f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '535a722def3fc292fd1613952fac1669') in 0.036689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/LICENSE
+  artifactKey: Guid(24d233bfd50ccdb438abd62079c28a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/LICENSE using Guid(24d233bfd50ccdb438abd62079c28a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea59b0c4f07f3f05205b76a8d606359d') in 0.026907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/URPProjectSettings.asset
+  artifactKey: Guid(25df4aa076671ab41b8d51baef16ff92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/URPProjectSettings.asset using Guid(25df4aa076671ab41b8d51baef16ff92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e4ad17ebbfe996a05b29aa90425d22d') in 0.026107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/Script/SourceSelector.cs
+  artifactKey: Guid(ae07b03851b241b438588e43455fa256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/Script/SourceSelector.cs using Guid(ae07b03851b241b438588e43455fa256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '161c51fc003f599b704b354d2e705228') in 0.022955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/InputManager.asset
+  artifactKey: Guid(94fc72c20fd58c042aa3e7b42c037c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/InputManager.asset using Guid(94fc72c20fd58c042aa3e7b42c037c52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '496cb51957cdd93923a9cc449b4b4d47') in 0.020982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/NavMeshAreas.asset
+  artifactKey: Guid(c150750e0ebed1a43ad291ffc0ed9017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/NavMeshAreas.asset using Guid(c150750e0ebed1a43ad291ffc0ed9017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddbbb4e4cfa0465c9513cd1305b2a9cf') in 0.022887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Plugin.cpp
+  artifactKey: Guid(28e0704a847910849bda0b884cc9b4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Plugin.cpp using Guid(28e0704a847910849bda0b884cc9b4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc167b418743a091c08b1b49dc586579') in 0.023670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/SpoutReceiver_Properties.cs
+  artifactKey: Guid(7e4392d1809c86949beeed0cffe0c9d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/SpoutReceiver_Properties.cs using Guid(7e4392d1809c86949beeed0cffe0c9d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '330ac65292b451aac64ddd355080a06f') in 0.023171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/Internal/Sender.cs
+  artifactKey: Guid(a32bcc2a5ab770f4a8363f6f30ce7413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/Internal/Sender.cs using Guid(a32bcc2a5ab770f4a8363f6f30ce7413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ce6007888dff98516c53c7ab725781b') in 0.023350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/SceneTemplateSettings.json
+  artifactKey: Guid(26a1b0d1529f2b547a48282fdb2da3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/SceneTemplateSettings.json using Guid(26a1b0d1529f2b547a48282fdb2da3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e93730140d95e3a7e80b53c0b9835d43') in 0.019187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout
+  artifactKey: Guid(b0811d7f5c3e0114f8aaa8fbbf6771bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout using Guid(b0811d7f5c3e0114f8aaa8fbbf6771bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '119f4ae65a7221c8436ab8e275b90595') in 0.020923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/SpoutSender_Properties.cs
+  artifactKey: Guid(75e1475c8301bed488015864b4f887d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/SpoutSender_Properties.cs using Guid(75e1475c8301bed488015864b4f887d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7f69c3bf2ed8e7aa84581003622fcc3') in 0.020153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/SpoutReceiverEditor.cs
+  artifactKey: Guid(e734598b416a23d45b1f873121ce31bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/SpoutReceiverEditor.cs using Guid(e734598b416a23d45b1f873121ce31bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0a23ef366e42a3ebb7ad828a58945b8') in 0.025901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/SpoutResources.asset
+  artifactKey: Guid(ae12f4dc512de744fb9632422338ac4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor/SpoutResources.asset using Guid(ae12f4dc512de744fb9632422338ac4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24a90ad85ac6368c936447dedcc554f4') in 0.024267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/Internal/MemoryPool.cs
+  artifactKey: Guid(e564c2ec4ec610f44b4f4f4a11f0b661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/Internal/MemoryPool.cs using Guid(e564c2ec4ec610f44b4f4f4a11f0b661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '658b7a606e513f2d3fa23d2935d4c9c0') in 0.020242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/Buffer
+  artifactKey: Guid(71805b9365934684388c193b256c41a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/Buffer using Guid(71805b9365934684388c193b256c41a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '671368bb7eaba9ef9a465fbdba7a1fcd') in 0.018964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/SpoutReceiver.cs
+  artifactKey: Guid(1f481e7ba8bc2a648a1e5ea5723451e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/SpoutReceiver.cs using Guid(1f481e7ba8bc2a648a1e5ea5723451e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef128ac47b4f1c3d0e2b6143b3c004d') in 0.020952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/URP.asset
+  artifactKey: Guid(a817dc55f0eb8dc468415b739ceae0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/URP.asset using Guid(a817dc55f0eb8dc468415b739ceae0d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07048c2ca5e319a9a73ac10ba536b4a8') in 0.021401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/DynamicsManager.asset
+  artifactKey: Guid(afebb3e68b4535b4388b3e66ce64dde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/DynamicsManager.asset using Guid(afebb3e68b4535b4388b3e66ce64dde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '128f0d2c49737cb440e9a774d98a1fb4') in 0.021815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/URP_Renderer.asset
+  artifactKey: Guid(e6b277fe4e9566442a659b0278c18758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/URP_Renderer.asset using Guid(e6b277fe4e9566442a659b0278c18758) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a021764f514e2a7d0031cc41d12f47ad') in 0.022494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Plugin/KlakSpout.dll
+  artifactKey: Guid(4aa6b79518bb3a148b2eeed158a12f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Plugin/KlakSpout.dll using Guid(4aa6b79518bb3a148b2eeed158a12f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cb595b5217c5defbd1b761d16901a0c') in 0.035987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/Buffer/Gradient.renderTexture
+  artifactKey: Guid(73e8dcdfe3f22594693dc569656418c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/Buffer/Gradient.renderTexture using Guid(73e8dcdfe3f22594693dc569656418c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f26cb9efbf6f287d4170c73062bee6f4') in 0.038131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Common.h
+  artifactKey: Guid(7894391f2ba229941a5624c063084f2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Common.h using Guid(7894391f2ba229941a5624c063084f2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52ba7c4eb6d12b3bb545a2e565fc52ad') in 0.029755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/Internal/Blit.shader
+  artifactKey: Guid(ac46a710dcff5db419619e9e925c80dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Runtime/Internal/Blit.shader using Guid(ac46a710dcff5db419619e9e925c80dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3cda1d37e29f523156f129751184190') in 0.069620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor
+  artifactKey: Guid(59b8d0cf4a57aaf48bcbe37c0d9ebf1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/Editor using Guid(59b8d0cf4a57aaf48bcbe37c0d9ebf1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe32df6f0c1ec998aa3f91b63f11c381') in 0.020003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/Script
+  artifactKey: Guid(5bacb3f46bf57c54385422a1cd07711b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/Script using Guid(5bacb3f46bf57c54385422a1cd07711b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2dac98c7ef5589eb401acb15b1a85f2') in 0.021075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/package.json
+  artifactKey: Guid(6710a6a45a48cb948ae30fac0a2c9bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/package.json using Guid(6710a6a45a48cb948ae30fac0a2c9bb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11cab9e11c159b65bb0a085aac97f09d') in 0.019877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/VFXManager.asset
+  artifactKey: Guid(efbfb662617361e4eaeb6a6c1f834c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/VFXManager.asset using Guid(efbfb662617361e4eaeb6a6c1f834c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '427febed34da8497d1aa6bc656225551') in 0.024694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/packages-lock.json
+  artifactKey: Guid(b03f25c0a86d3cd4e8ded19b5d04cfd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/packages-lock.json using Guid(b03f25c0a86d3cd4e8ded19b5d04cfd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '486ee323324c27c98c999401a71efcae') in 0.024517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Unity/IUnityGraphics.h
+  artifactKey: Guid(74f7390cd71e8734dbac5eccbdcfa9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Unity/IUnityGraphics.h using Guid(74f7390cd71e8734dbac5eccbdcfa9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c89d9370dca942679fc8338104b83bfa') in 0.025200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Sender.h
+  artifactKey: Guid(957134839ef82b943a82e0a443728c36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Sender.h using Guid(957134839ef82b943a82e0a443728c36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2c8af5cac08fd4917d3fa8565f74d10') in 0.026511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/TimeManager.asset
+  artifactKey: Guid(2e384aaad005c7b47800b33eefd963fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/TimeManager.asset using Guid(2e384aaad005c7b47800b33eefd963fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d986f8d5ee8244f162c04eeb863fec7') in 0.023526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/d3d11on12.h
+  artifactKey: Guid(4cdf55dd7d4180f4786db1f78b81e638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/d3d11on12.h using Guid(4cdf55dd7d4180f4786db1f78b81e638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82d8ef272f80feaaa55aeb96a019b94c') in 0.022730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/EditorSettings.asset
+  artifactKey: Guid(160cdaf3500a5d9489454263a170a9b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/EditorSettings.asset using Guid(160cdaf3500a5d9489454263a170a9b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76da7b810c6d4feccbe4aa41d38b20fc') in 0.020443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings
+  artifactKey: Guid(c32cc7c4255ce804fbfb3371483bc566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings using Guid(c32cc7c4255ce804fbfb3371483bc566) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb1469340a21f4579423d5568988fbb3') in 0.019717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Assets/Test.unity
+  artifactKey: Guid(a83b31f020d56ca4d93f5f70138ef6b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Assets/Test.unity using Guid(a83b31f020d56ca4d93f5f70138ef6b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6801928033dd6b8306567897c964107e') in 0.020163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/ProjectSettings/EditorBuildSettings.asset
+  artifactKey: Guid(9207037e783570a418b0fe925a224bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/ProjectSettings/EditorBuildSettings.asset using Guid(9207037e783570a418b0fe925a224bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1b9c5f1ef01c725f4ac91af2c6e5497') in 0.021930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Plugin/Event.h
+  artifactKey: Guid(d91f1daeaaef6814e8b173f3d5601651) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Plugin/Event.h using Guid(d91f1daeaaef6814e8b173f3d5601651) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe9e414c9d407a26b85b4bb660269621') in 0.021406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/LICENSE
+  artifactKey: Guid(0201280cd88059a4993fae4f28189117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Spout/KlakSpout-2.0.3/Packages/jp.keijiro.klak.spout/LICENSE using Guid(0201280cd88059a4993fae4f28189117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1759d79f0af814d8f642517418684c4') in 0.018023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.901455 seconds.
+  path: Assets/Spout
+  artifactKey: Guid(61640400918342e49abf249115aaabff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spout using Guid(61640400918342e49abf249115aaabff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33d6fccb7bd9f0f29cd9bd2f901d151') in 0.000662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.055 seconds
+Refreshing native plugins compatible for Editor in 12.10 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.212 seconds
+Domain Reload Profiling: 3255ms
+	BeginReloadAssembly (348ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (637ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2213ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 9.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (134.1 KB). Loaded Objects now: 3606.
+Memory consumption went from 123.3 MB to 123.1 MB.
+Total: 7.801100 ms (FindLiveObjects: 0.453300 ms CreateObjectMapping: 0.394200 ms MarkObjects: 6.767600 ms  DeleteObjects: 0.183800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

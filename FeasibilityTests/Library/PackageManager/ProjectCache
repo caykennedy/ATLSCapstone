@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638349048780312286
-    m_Hash: 2764570574
+      ticks: 638355316575487425
+    m_Hash: 3892816583
   m_LockFileStatus:
     m_FilePath: C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638349050828336881
-    m_Hash: 3405761751
+      ticks: 638355316615168810
+    m_Hash: 2744709544
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -646,6 +646,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -661,6 +662,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3061,6 +3063,78 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: jp.keijiro.klak.spout@2.0.3
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.3
+  source: 1
+  resolvedPath: C:\Users\cayla\Documents\GitHub\ATLSCapstone\FeasibilityTests\Library\PackageCache\jp.keijiro.klak.spout@2.0.3
+  assetPath: Packages/jp.keijiro.klak.spout
+  name: jp.keijiro.klak.spout
+  displayName: KlakSpout
+  author:
+    name: Keijiro Takahashi
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Cross-process texture sharing plugin (Spout protocol)
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords:
+  - unity
+  registry:
+    id: scoped:project:Keijiro
+    name: Keijiro
+    url: https://registry.npmjs.com
+    scopes:
+    - jp.keijiro
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637634904256120000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/keijiro/KlakSpout.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
