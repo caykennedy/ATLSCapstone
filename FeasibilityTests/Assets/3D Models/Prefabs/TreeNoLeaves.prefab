@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6926128412994480243
+--- !u!1001 &6793545871815004565
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 157.65747
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 592.20483
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -52,45 +52,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeNoLeaves
       objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 6.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 6.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 6.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151388028547126963, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -8197191043847610396}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6798039225787347277}
+      addedObject: {fileID: 768466693203241576}
   m_SourcePrefab: {fileID: 100100000, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
---- !u!1 &7845240630145684770 stripped
+--- !u!1 &5946700031222869188 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9883c292a286c804dba3c08c52496ef1, type: 3}
-  m_PrefabInstance: {fileID: 6926128412994480243}
+  m_PrefabInstance: {fileID: 6793545871815004565}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &-8197191043847610396
+--- !u!23 &768466693203241576
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7845240630145684770}
+  m_GameObject: {fileID: 5946700031222869188}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -104,7 +85,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b03260b6c71c6848a9ef7e6dcccb2b8, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,11 +107,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &6798039225787347277
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7845240630145684770}
-  m_Mesh: {fileID: 0}
