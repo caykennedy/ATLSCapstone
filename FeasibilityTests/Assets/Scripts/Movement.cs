@@ -30,6 +30,7 @@ public class Movement : MonoBehaviour
         controller = gameObject.AddComponent<CharacterController>();
     }
 
+    // smooth traversal from Dave/Game Developer: https://www.youtube.com/watch?v=f473C43s8nE
     // Update is called once per frame
     private void Update()
     {
@@ -53,6 +54,6 @@ public class Movement : MonoBehaviour
         // getting movement in the direction you're looking
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        capsule.AddForce(moveDirection.normalized * playerSpeed * 5f, ForceMode.Force);
+        capsule.AddForce(moveDirection.normalized * playerSpeed * 4f, ForceMode.Force);
     }
 }
