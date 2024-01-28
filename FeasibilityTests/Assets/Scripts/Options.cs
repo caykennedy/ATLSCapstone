@@ -16,18 +16,18 @@ public class Options : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Click();
+        // Click();
     }
 
     public void Click()
     {
-        if(option1)
-        {
-            console.log(option1);
-        }
-        if(option2)
-        {
-            console.log(option2);
-        }
+        // if(option1)
+        // {
+        //     console.log(option1);
+        // }
+        // if(option2)
+        // {
+        //     console.log(option2);
+        // }
     }
 }
