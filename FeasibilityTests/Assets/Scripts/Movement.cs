@@ -45,7 +45,7 @@ public class Movement : MonoBehaviour
     private void PlayerInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal"); 
-        verticalInput = Input.GetAxisRaw("vertical");
+        verticalInput = Input.GetAxisRaw("Vertical");
     }
 
     private void PlayerMovement()
@@ -53,6 +53,6 @@ public class Movement : MonoBehaviour
         // getting movement in the direction you're looking
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        capsule.AddForce(moveDirection.normalized * playerSpeed * 10f, ForceMode.Force);
+        capsule.AddForce(moveDirection.normalized * playerSpeed * 5f, ForceMode.Force);
     }
 }

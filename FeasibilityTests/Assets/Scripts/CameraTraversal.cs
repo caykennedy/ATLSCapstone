@@ -45,7 +45,7 @@ public class CameraTraversal : MonoBehaviour
 
         transform.position = cameraPosition.position;
 
-        // lookAround();
+        lookAround();
         
     }
 
