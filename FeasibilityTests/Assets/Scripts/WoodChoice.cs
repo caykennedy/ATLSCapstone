@@ -5,6 +5,7 @@ using UnityEngine;
 public class WoodChoice : MonoBehaviour
 {
     public GameObject ui;
+    public AudioSource clip; 
 
     void Start()
     {
@@ -13,6 +14,7 @@ public class WoodChoice : MonoBehaviour
     void OnTriggerEnter (Collider player)
     {
         Debug.Log("Bumped into tree");
+        clip.Play();
     }
     void OnTriggerStay (Collider player)
     {
