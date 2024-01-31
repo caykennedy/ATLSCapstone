@@ -52,4 +52,10 @@ public class ChangeScenes : MonoBehaviour
         SceneManager.LoadScene(sceneName);
         clip.Play();
     }
+
+    void OnTriggerEnter (Collider player)
+    {
+        Debug.Log("entering");
+        changeScene();
+    }
 }
