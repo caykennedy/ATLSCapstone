@@ -1,0 +1,12 @@
+# Blender 4.0.2 MTL File: 'willOTheWisp.blend'
+# www.blender.org
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.019261 0.430028 0.801690
+Ks 0.500000 0.500000 0.500000
+Ke 0.426961 12.781497 26.499998
+Ni 1.000000
+d 1.000000
+illum 2
