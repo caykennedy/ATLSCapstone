@@ -7,13 +7,22 @@ public class Options : MonoBehaviour
     public GameObject option1; 
     public GameObject option2;
 
-    private GameObject[] objectArray; 
+    public GameObject[] objectArray; 
 
     // Start is called before the first frame update
     void Start()
     {
         option1.SetActive(false);
-        option2.SetActive(false);
+
+        // for (int i = 0; i < option1.Length; i++)
+        // {
+        //     option1[i].SetActive(false);
+        // }
+
+        // for (int i = 0; i < option2.Length; i++)
+        // {
+        //     option2.SetActive(false);
+        // }
     }
 
     // Update is called once per frame
@@ -26,32 +35,17 @@ public class Options : MonoBehaviour
     public void showFairyTown()
     {
 
-        // if(GameObject.FindGameObjectsWithTag("fairy") == true)
-        // {
-        //     option1.SetActive(true);
-        // }
-        // if(GameObject.FindGameObjectsWithTag("wisp") == true)
-        // {
-        //     option2.SetActive(true);
-        // }
-
-        objectArray = GameObject.FindGameObjectsWithTag("fairy"); 
-
-        foreach (GameObject obj in objectArray)
+        if(option1.activeInHierarchy == false)
         {
-            Debug.Log(objectArray);
-            obj.SetActive(true);
+            option1.SetActive(true);
         }
     }
 
     public void showPathOfWisps()
     {
-        objectArray = GameObject.FindGameObjectsWithTag("wisp"); 
-
-        foreach (GameObject obj in objectArray)
+        if(option2.activeInHierarchy == false)
         {
-            Debug.Log(objectArray);
-            obj.SetActive(true);
+            option2.SetActive(true);
         }
     }
 }

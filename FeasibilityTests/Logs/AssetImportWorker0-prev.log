@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16278 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16129 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\Unity 2022.3.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests
+C:/Users/torsh/Documents/GitHub/ATLSCapstone/FeasibilityTests
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51098
-Successfully changed project path to: C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests
-C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests
+51946
+Successfully changed project path to: C:/Users/torsh/Documents/GitHub/ATLSCapstone/FeasibilityTests
+C:/Users/torsh/Documents/GitHub/ATLSCapstone/FeasibilityTests
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31284] Host "[IP] 10.0.0.227 [Port] 0 [Flags] 2 [Guid] 3228106998 [EditorId] 3228106998 [Version] 1048832 [Id] WindowsEditor(7,toshifer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3840] Host "[IP] 10.0.0.135 [Port] 0 [Flags] 2 [Guid] 3328513230 [EditorId] 3328513230 [Version] 1048832 [Id] WindowsEditor(7,Torshawna_HP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31284] Host "[IP] 10.0.0.227 [Port] 0 [Flags] 2 [Guid] 3228106998 [EditorId] 3228106998 [Version] 1048832 [Id] WindowsEditor(7,toshifer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3840] Host "[IP] 10.0.0.135 [Port] 0 [Flags] 2 [Guid] 3328513230 [EditorId] 3328513230 [Version] 1048832 [Id] WindowsEditor(7,Torshawna_HP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 15.11 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 7.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/cayla/Documents/GitHub/ATLSCapstone/FeasibilityTests/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/torsh/Documents/GitHub/ATLSCapstone/FeasibilityTests/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
-    Vendor:   NVIDIA
-    VRAM:     8019 MB
-    Driver:   31.0.15.3758
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8064 MB
+    Driver:   30.0.101.1338
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012339 seconds.
-- Loaded All Assemblies, in  0.527 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006958 seconds.
+- Loaded All Assemblies, in  0.417 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.352 seconds
-Domain Reload Profiling: 875ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 731ms
+	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (155ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (117ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (181ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (352ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (272ms)
+		SetupLoadedEditorAssemblies (240ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (179ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,120 +115,59 @@ Domain Reload Profiling: 875ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.092 seconds
-Refreshing native plugins compatible for Editor in 8.08 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.661 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.977 seconds
-Domain Reload Profiling: 2063ms
-	BeginReloadAssembly (222ms)
+- Finished resetting the current domain, in  0.448 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (733ms)
-		LoadAssemblies (472ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (307ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (393ms)
-			TypeCache.Refresh (327ms)
-				TypeCache.ScanAssembly (293ms)
-			ScanForSourceGeneratedMonoScriptInfo (50ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (978ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (449ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (718ms)
+		SetupLoadedEditorAssemblies (332ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (533ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 10.78 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3626.
-Memory consumption went from 127.0 MB to 127.0 MB.
-Total: 8.429000 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.520900 ms MarkObjects: 7.302600 ms  DeleteObjects: 0.151600 ms)
+Unloading 33 unused Assets / (57.9 KB). Loaded Objects now: 3633.
+Memory consumption went from 130.2 MB to 130.1 MB.
+Total: 3.000100 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.587600 ms  DeleteObjects: 0.114400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1218045.228202 seconds.
-  path: Assets/TerrainData_8552de23-f2ba-4f32-bcfe-0a5192b76a44.asset
-  artifactKey: Guid(8b7860adc4579f742a99433490f9dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_8552de23-f2ba-4f32-bcfe-0a5192b76a44.asset using Guid(8b7860adc4579f742a99433490f9dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2422ab217664810111f036b6771d7c9e') in 0.030839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(ad7676309414a1b4ebe23d61988a964b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(ad7676309414a1b4ebe23d61988a964b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0a145f312327b0df3798721ce13b91') in 0.006562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/New Terrain 2.asset
-  artifactKey: Guid(7ddc679d7f88e374988a4abdc2ba167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 2.asset using Guid(7ddc679d7f88e374988a4abdc2ba167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree nQuad-Plane couldn't be instanced because the prefab contains no valid mesh renderer.
- -> (artifact id: '0a0e8fe6ed61f33c5a03c0b85adbf541') in 0.504591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 60
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TerrainData_760741b7-d8e0-4faf-826a-d96fba992155.asset
-  artifactKey: Guid(0b66bf66832269a4f99e4314d443f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_760741b7-d8e0-4faf-826a-d96fba992155.asset using Guid(0b66bf66832269a4f99e4314d443f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af1fc9e15661b1490d83fb5e298ba48') in 0.010395 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(73dcb75491cfa244699f89434208168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(73dcb75491cfa244699f89434208168b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c115b307d2b43717a476ae47ea438') in 0.011026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.43 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (401.4 KB). Loaded Objects now: 3630.
-Memory consumption went from 74.8 MB to 74.4 MB.
-Total: 6.372100 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.374900 ms MarkObjects: 5.184000 ms  DeleteObjects: 0.434200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -242,9 +181,326 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.464714 seconds.
-  path: Assets/3DModels
-  artifactKey: Guid(acb454f22a4e41c49aed6cb0b2be021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DModels using Guid(acb454f22a4e41c49aed6cb0b2be021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279e21767e9349411dd4fdeb6a4c7bdb') in 0.002292 seconds
+  Time since last request: 6807.934089 seconds.
+  path: Assets/3D Models/Prefabs/FairyHouse.prefab
+  artifactKey: Guid(f143d3db1fcfff7429ce520b197700d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/FairyHouse.prefab using Guid(f143d3db1fcfff7429ce520b197700d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9af8e28c50b5de76ae5da23cc35fba') in 0.034928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 9.731265 seconds.
+  path: Assets/3D Models/Prefabs/New Prefab.prefab
+  artifactKey: Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/New Prefab.prefab using Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daea6efa5d2a0014ba49294e36f41175') in 0.002037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 7.087840 seconds.
+  path: Assets/3D Models/Prefabs/MushroomHouse.prefab
+  artifactKey: Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/MushroomHouse.prefab using Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33df6730d842d364b046cd90d4a9f800') in 0.002636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.318031 seconds.
+  path: Assets/3D Models/Prefabs/WillOTheWisp.prefab
+  artifactKey: Guid(2862f44dc8035b14c949ac449c3d133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/WillOTheWisp.prefab using Guid(2862f44dc8035b14c949ac449c3d133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70eee44a8f7a33ec9af9478eae55d21') in 0.001835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 5.169704 seconds.
+  path: Assets/3D Models/ship_v1.skp
+  artifactKey: Guid(e5fa7b03ab65599448cf7e378b6ff4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/ship_v1.skp using Guid(e5fa7b03ab65599448cf7e378b6ff4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6bb09f7c9235b3e7356113af673952') in 0.195735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/3D Models/willOTheWisp.blend
+  artifactKey: Guid(7081b0fbd2e1aee439350efd9500c54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp.blend using Guid(7081b0fbd2e1aee439350efd9500c54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8144ce007d69c5cadc702594ae42cedb') in 0.001829 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 199.297413 seconds.
+  path: Assets/3D Models/Prefabs/MushroomHouse.prefab
+  artifactKey: Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/MushroomHouse.prefab using Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c7c56823240c00cc9f12213669f4f6') in 0.013827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 6.720606 seconds.
+  path: Assets/3D Models/Prefabs/shroomHouse.prefab
+  artifactKey: Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/shroomHouse.prefab using Guid(8af271f03f4bbc44abdce7b66a34f4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42729e97ee1d8d8edc04c3d7492bd597') in 0.010615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 35.133142 seconds.
+  path: Assets/3D Models/Prefabs/FairyHouse.prefab
+  artifactKey: Guid(f143d3db1fcfff7429ce520b197700d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/FairyHouse.prefab using Guid(f143d3db1fcfff7429ce520b197700d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfde431d17e161e975961ff6399d9f6') in 0.007614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 5.530656 seconds.
+  path: Assets/3D Models/Prefabs/cozyCabin.prefab
+  artifactKey: Guid(f143d3db1fcfff7429ce520b197700d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Prefabs/cozyCabin.prefab using Guid(f143d3db1fcfff7429ce520b197700d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecfcabd41f94778858515c6ebee0c23') in 0.008388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 88.457560 seconds.
+  path: Assets/3D Models/willOTheWisp.obj
+  artifactKey: Guid(70ea90a3364fdb547962cdfad3216b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp.obj using Guid(70ea90a3364fdb547962cdfad3216b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5efdb8bf89d240bf72cd0928b69e890') in 0.078026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 173.421879 seconds.
+  path: Assets/3D Models/willOTheWisp1.obj
+  artifactKey: Guid(1d08023d13bd58948a72876e313fe0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp1.obj using Guid(1d08023d13bd58948a72876e313fe0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66210b0a98b59683e3ddc2ed49362487') in 0.194994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D Models/willOTheWisp13.obj
+  artifactKey: Guid(0bf6dfbfdd7746443a8e0ea649a04567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp13.obj using Guid(0bf6dfbfdd7746443a8e0ea649a04567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c959d56ff74583d74f261a8c86efcefa') in 0.110562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3D Models/willOTheWisp6.obj
+  artifactKey: Guid(f4aefa2be23d28a4f958c1e6dd03b8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp6.obj using Guid(f4aefa2be23d28a4f958c1e6dd03b8a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649a8ba3b3f305f5904ea51da52303c0') in 0.232930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/willOTheWisp9.obj
+  artifactKey: Guid(f7ab516028575684789f508c47a94a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp9.obj using Guid(f7ab516028575684789f508c47a94a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3943edac0f073d4318487c39a7bf3fa3') in 0.166457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/3D Models/willOTheWisp7.obj
+  artifactKey: Guid(376cff447183016459fd623179b8da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp7.obj using Guid(376cff447183016459fd623179b8da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d877e514297b987855511bb604e294') in 0.322760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/willOTheWisp4.obj
+  artifactKey: Guid(2446576229804364aa73ca62784b418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp4.obj using Guid(2446576229804364aa73ca62784b418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413012af43371cb40246dbdbecb52935') in 0.207343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Models/willOTheWisp12.obj
+  artifactKey: Guid(c8bae8daf4ec1ee4588adaec7a5d2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp12.obj using Guid(c8bae8daf4ec1ee4588adaec7a5d2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e54479cbd3b8e84c1b775f6b3bb92c7') in 0.112199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 5.034027 seconds.
+  path: Assets/3D Models/willOTheWisp15.obj
+  artifactKey: Guid(a3338bdc73d07cc4c879249f36b0e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp15.obj using Guid(a3338bdc73d07cc4c879249f36b0e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e46bb1f8cf668f31e650d0b6628c1cb') in 0.122261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/3D Models/willOTheWisp19.obj
+  artifactKey: Guid(986f01e8c5041ec43a57203cef797294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp19.obj using Guid(986f01e8c5041ec43a57203cef797294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee5b21f4fbcfc364f7adce8a23b6e24') in 0.169501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Models/willOTheWisp17.obj
+  artifactKey: Guid(946cca5e5d885284da57319e63a9179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp17.obj using Guid(946cca5e5d885284da57319e63a9179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c44d150f691b1ed1e531ae39ba9a8d5') in 0.115008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.070016 seconds.
+  path: Assets/3D Models/willOTheWisp21.obj
+  artifactKey: Guid(5eca7a0cbdecbe6459ca3e14a9fdc056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp21.obj using Guid(5eca7a0cbdecbe6459ca3e14a9fdc056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6449fb49e6092912f304ea4624ab0914') in 0.160504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Models/willOTheWisp30.obj
+  artifactKey: Guid(e2fc840a3b16f304b93c0163799bc6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp30.obj using Guid(e2fc840a3b16f304b93c0163799bc6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3621fb833b9a64cbc00ae345a678572c') in 0.118754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3D Models/willOTheWisp31.obj
+  artifactKey: Guid(038cf95b8612ab248b96dbe4111f1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp31.obj using Guid(038cf95b8612ab248b96dbe4111f1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ad737e38fef2a895a75ab25bb35079') in 0.102676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/willOTheWisp26.obj
+  artifactKey: Guid(b942e6453a5222045b056fbea5ab06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp26.obj using Guid(b942e6453a5222045b056fbea5ab06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d1c297c8e2ec2052ddc511ba314150') in 0.170155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3D Models/willOTheWisp27.obj
+  artifactKey: Guid(7eee844077aec614c8e0aa63818412c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp27.obj using Guid(7eee844077aec614c8e0aa63818412c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a272dbbd07da5156d9fa94f9522f457e') in 0.082768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.140465 seconds.
+  path: Assets/3D Models/willOTheWisp34.obj
+  artifactKey: Guid(5c25fa35e1175a44ebaf89795f8e4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp34.obj using Guid(5c25fa35e1175a44ebaf89795f8e4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ac337aac574320281e4262df8e7c75') in 0.116312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/willOTheWisp37.obj
+  artifactKey: Guid(96585474a79bc3a4ab8beae5c9b2fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp37.obj using Guid(96585474a79bc3a4ab8beae5c9b2fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740febd444261a414653a7c1587f8fe1') in 0.103758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.291832 seconds.
+  path: Assets/3D Models/willOTheWisp39.obj
+  artifactKey: Guid(958f54a00655c52428c8ff531aa55fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp39.obj using Guid(958f54a00655c52428c8ff531aa55fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f80bc119dbb44c17eb44f7dd9a80484') in 0.172121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Models/willOTheWisp42.obj
+  artifactKey: Guid(e7c4e58af119a51498d67d7babbcb04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp42.obj using Guid(e7c4e58af119a51498d67d7babbcb04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba9176fd4229bf13689c0ad6db4ded7') in 0.163580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.045188 seconds.
+  path: Assets/3D Models/willOTheWisp44.obj
+  artifactKey: Guid(21f74d982db710f4b8abef65b6792894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp44.obj using Guid(21f74d982db710f4b8abef65b6792894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063e7b484e974c4ca07ed470133c5cac') in 0.190207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/willOTheWisp50.obj
+  artifactKey: Guid(a7d8ed3abc4c9de4aa83db5fa6f1232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp50.obj using Guid(a7d8ed3abc4c9de4aa83db5fa6f1232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aace8657d47cd57bb8f6ea08ff74cb9c') in 0.173024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/3D Models/willOTheWisp61.obj
+  artifactKey: Guid(138cac77f056b244da48d2b299cbf285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp61.obj using Guid(138cac77f056b244da48d2b299cbf285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b492fb5e8676783e913cfc992bff93d') in 0.242807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Models/willOTheWisp45.obj
+  artifactKey: Guid(ac29492f0be5515409bc93902b13b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp45.obj using Guid(ac29492f0be5515409bc93902b13b62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee21cddcd8697014ac2f13ae48a3b4b') in 0.138625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/3D Models/willOTheWisp62.obj
+  artifactKey: Guid(283e3c2546f1a854d8302c8750ea1bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp62.obj using Guid(283e3c2546f1a854d8302c8750ea1bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1677683348811bb5cb65a384701c30') in 0.133116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/3D Models/willOTheWisp47.obj
+  artifactKey: Guid(d873cb8caae7e944a921a6302ab5f423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp47.obj using Guid(d873cb8caae7e944a921a6302ab5f423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c7ac32708ef840257cdf9dd8fab508') in 0.156310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/3D Models/willOTheWisp46.obj
+  artifactKey: Guid(7691b376bdc6ec64bbb4944a7cf3fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp46.obj using Guid(7691b376bdc6ec64bbb4944a7cf3fbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0238223a19c8b6f81c99a4786decb0d') in 0.126712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/3D Models/willOTheWisp56.obj
+  artifactKey: Guid(a0777b03c951c0f43ae505e5a04e361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp56.obj using Guid(a0777b03c951c0f43ae505e5a04e361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01781b6d42090b414151c1d9be620f2f') in 0.201288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.702103 seconds.
+  path: Assets/3D Models/willOTheWisp69.obj
+  artifactKey: Guid(476a77892faaf924fb98e912355654d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp69.obj using Guid(476a77892faaf924fb98e912355654d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1bcb542a800e9056581336f4fd15d3') in 0.113595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/willOTheWisp71.obj
+  artifactKey: Guid(6d19415e2eb2da44cb5fbb9ffac15a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/willOTheWisp71.obj using Guid(6d19415e2eb2da44cb5fbb9ffac15a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caf00891ef4ac381ca00d1cc3086047') in 0.088029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
