@@ -12,9 +12,9 @@ public class Options : MonoBehaviour
     public GameObject option1; 
     public GameObject option2;
 
-    // ParticleSystem fairyDust = GetComponent<ParticleSystem>();
+    public ParticleSystem fairyDust;
 
-    public GameObject[] objectArray; 
+    public GameObject[] wisps; 
 
     // Start is called before the first frame update
     void Start()
@@ -51,7 +51,6 @@ public class Options : MonoBehaviour
             user.transform.Rotate(0f, -45f, 0);
 
             // start playing particle system
-            var fairyDust = GetComponent<ParticleSystem>(); 
             fairyDust.Play(); 
             Destroy(gameObject, fairyDust.main.duration);
         }
@@ -66,6 +65,18 @@ public class Options : MonoBehaviour
             tree.SetActive(false); 
             ui.SetActive(false);
             user.transform.Rotate(0f, 90f, 0);
+
+            // StartCoroutine(wispCoroutine());
         }
     }
+
+    // IEnumerator wispCoroutine()
+    // {
+    //     // show Coroutine of wisps in the path 
+    //     // make sure to have an array of objects to show 
+
+    //     Debug.Log("start coroutine showing path of wisps"); 
+    //     wisps.SetActive(true); 
+    //     yield return new WaitForSeconds(5); 
+    // }
 }
