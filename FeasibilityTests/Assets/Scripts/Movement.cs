@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
         capsule = GetComponent<Rigidbody>(); 
         capsule.freezeRotation = true; 
 
-        controller = gameObject.AddComponent<CharacterController>();
+        // controller = gameObject.AddComponent<CharacterController>();
     }
 
     // smooth traversal from Dave/Game Developer: https://www.youtube.com/watch?v=f473C43s8nE

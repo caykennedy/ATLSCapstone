@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO.Ports;
+// using System.IO.Ports;
 
 public class Options : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class Options : MonoBehaviour
 
     public GameObject[] wisps; 
 
-    public SerialPort data_stream = new SerialPort("COM4", 9600); 
+    // public SerialPort data_stream = new SerialPort("COM4", 9600); 
     public string receivedString;
     
 
@@ -25,7 +25,7 @@ public class Options : MonoBehaviour
     {
         option1.SetActive(false);
 
-        data_stream.Open();
+        // data_stream.Open();
     }
 
     // Update is called once per frame
@@ -55,7 +55,7 @@ public class Options : MonoBehaviour
     public void showPathOfWisps()
     {
         Debug.Log("choosing Path of Wisps");
-        serialController.SendSerialMessage("2");
+        // serialController.SendSerialMessage("2");
         if(Input.GetKeyDown("2"))
         {
             option2.SetActive(true);
