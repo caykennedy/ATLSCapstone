@@ -19,6 +19,7 @@ public class CameraTraversal : MonoBehaviour
 
     public Transform orientation; 
     public Transform cameraPosition; 
+    public Transform LookTarget;
 
     // Start is called before the first frame update
     void Start()
@@ -45,7 +46,9 @@ public class CameraTraversal : MonoBehaviour
 
         transform.position = cameraPosition.position;
 
-        lookAround();
+        transform.LookAt(LookTarget);
+
+        // lookAround();
         
     }
 
