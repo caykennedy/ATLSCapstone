@@ -20,14 +20,6 @@ public class SampleMessageListener : MonoBehaviour
     void OnMessageArrived(string msg)
     {
         Debug.Log("Message arrived: " + msg);
-        if(msg=="ok!!")
-        {
-            print("Unity Got it");
-
-        }else{
-
-            print("Nope");
-        }
     }
 
     // Invoked when a connect/disconnect event occurs. The parameter 'success'
