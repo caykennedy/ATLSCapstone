@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour
     private void Start()
     {
 
-        capsule = GetComponent<Rigidbody>(); 
+        // capsule = GetComponent<Rigidbody>(); 
         capsule.freezeRotation = true; 
 
         // controller = gameObject.AddComponent<CharacterController>();
@@ -51,9 +51,9 @@ public class Movement : MonoBehaviour
 
     private void PlayerMovement()
     {
-        // // getting movement in the direction you're looking
-        // moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        // getting movement in the direction you're looking
+        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        // capsule.AddForce(moveDirection.normalized * playerSpeed * 4f, ForceMode.Force);
+        capsule.AddForce(moveDirection.normalized * playerSpeed * 4f, ForceMode.Force);
     }
 }

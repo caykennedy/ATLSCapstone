@@ -18,7 +18,7 @@ public class CameraTraversal : MonoBehaviour
     float yRotation;
 
     public Transform orientation; 
-    public Transform cameraPosition; 
+    public Transform capsulePosition; 
     public Transform LookTarget;
 
     // Start is called before the first frame update
@@ -44,7 +44,7 @@ public class CameraTraversal : MonoBehaviour
         // }
         // person.transform.position += new Vector3(1f, 0) * Time.deltaTime * multiplier * direction;
 
-        transform.position = cameraPosition.position;
+        // transform.position = capsulePosition.position;
 
         transform.LookAt(LookTarget);
 
