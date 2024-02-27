@@ -51,23 +51,23 @@ public class ChangeScenes : MonoBehaviour
         // enchantedWoods();
     }
     
-    public void changeScene()
-    {
-        SceneManager.LoadScene(sceneName);
-        clip.Play();
-    }
-
-    void OnTriggerEnter (Collider player)
-    {
-        Debug.Log("entering");
-        changeScene();
-    }
-
-    // public void enchantedWoods()
+    // public void changeScene()
     // {
-    //     if(Input.GetKeyDown("3"))
-    //     {
-    //         changeScene();
-    //     }
+    //     SceneManager.LoadScene(sceneName);
+    //     clip.Play();
     // }
+
+    // void OnTriggerEnter (Collider player)
+    // {
+    //     Debug.Log("entering");
+    //     changeScene();
+    // }
+
+    public void enchantedWoods()
+    {
+        if(Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            SceneManager.LoadScene("Enchanted Woods");
+        }
+    }
 }
