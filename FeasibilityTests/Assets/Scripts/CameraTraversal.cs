@@ -45,7 +45,7 @@ public class CameraTraversal : MonoBehaviour
         // person.transform.position += new Vector3(1f, 0) * Time.deltaTime * multiplier * direction;
 
         // transform.position = capsulePosition.position;
-
+        capsulePosition.position = transform.position;
         transform.LookAt(LookTarget);
 
         // lookAround();
