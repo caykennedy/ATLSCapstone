@@ -46,6 +46,10 @@ public class ChangeScenes : MonoBehaviour
     // {
     //     SceneManager.LoadScene(Scene.WelcomeScene.ToString());
     // }
+    void Update()
+    {
+        // enchantedWoods();
+    }
     
     public void changeScene()
     {
@@ -58,4 +62,12 @@ public class ChangeScenes : MonoBehaviour
         Debug.Log("entering");
         changeScene();
     }
+
+    // public void enchantedWoods()
+    // {
+    //     if(Input.GetKeyDown("3"))
+    //     {
+    //         changeScene();
+    //     }
+    // }
 }
