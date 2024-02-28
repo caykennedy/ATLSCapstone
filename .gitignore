@@ -2,14 +2,15 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ff]easibility[Tt]ests/
+# /[Ff]easibility[Tt]ests/
 /[Ll]ibrary/
 /[Ff]easibility[Tt]ests/[Ll]ibrary/
-/[Ff]easibility[Tt]ests/[Tt]emp/
+# /[Ff]easibility[Tt]ests/[Tt]emp/
+/[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-/[Ff]easibility[Tt]ests/[Ll]ogs/
+/[Ll]ogs/
 /[Ff]easibility[Tt]ests/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
