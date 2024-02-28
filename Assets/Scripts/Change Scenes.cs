@@ -65,7 +65,7 @@ public class ChangeScenes : MonoBehaviour
 
     public void enchantedWoods()
     {
-        if(Input.GetKeyDown(KeyCode.Keypad3))
+        if(Input.GetKeyDown("3"))
         {
             SceneManager.LoadScene("Enchanted Woods");
         }

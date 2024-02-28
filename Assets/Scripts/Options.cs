@@ -54,7 +54,7 @@ public class Options : MonoBehaviour
 
     public void showPathOfWisps()
     {
-        Debug.Log("choosing Path of Wisps");
+        // Debug.Log("choosing Path of Wisps");
         // serialController.SendSerialMessage("2");
         if(Input.GetKeyDown("2"))
         {
