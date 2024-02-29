@@ -49,6 +49,7 @@ public class ChangeScenes : MonoBehaviour
     void Update()
     {
         enchantedWoods();
+        crystalCave();
     }
     
     // public void changeScene()
@@ -68,6 +69,13 @@ public class ChangeScenes : MonoBehaviour
         if(Input.GetKeyDown("3"))
         {
             SceneManager.LoadScene("Enchanted Woods");
+        }
+    }
+    public void crystalCave()
+    {
+        if(Input.GetKeyDown("4"))
+        {
+            SceneManager.LoadScene("Crystal Cave");
         }
     }
 }
