@@ -8,8 +8,8 @@ namespace PathCreation.Examples
     {
         public PathCreator pathCreator;
         public EndOfPathInstruction endOfPathInstruction;
-        public float speed = 1;
-        float distanceTravelled;
+        public float speed = 0.5f;
+        public float distanceTravelled;
 
         public bool RotationIgnoreXZ = true;
 
@@ -25,6 +25,16 @@ namespace PathCreation.Examples
         {
             if (pathCreator != null)
             {
+                if(Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    speed += 0.06f;
+                    distanceTravelled += speed * Time.deltaTime;
+                }
+                if(Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    speed -= 0.06f;
+                    distanceTravelled += speed * Time.deltaTime;
+                }
                 distanceTravelled += speed * Time.deltaTime;
                 transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);
 

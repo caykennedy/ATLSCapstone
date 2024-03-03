@@ -48,15 +48,20 @@ public class ChangeScenes : MonoBehaviour
     // }
     void Update()
     {
+        // changeScene();
         enchantedWoods();
         crystalCave();
     }
     
-    // public void changeScene()
-    // {
-    //     SceneManager.LoadScene(sceneName);
-    //     clip.Play();
-    // }
+    public void changeScene()
+    {
+        SceneManager.LoadScene(sceneName);
+        if(Input.GetKey(KeyCode.KeypadEnter) || Input.GetKeyDown("Enter"))
+        {
+            SceneManager.LoadScene("Starting scene");
+            clip.Play();
+        }
+    }
 
     // void OnTriggerEnter (Collider player)
     // {

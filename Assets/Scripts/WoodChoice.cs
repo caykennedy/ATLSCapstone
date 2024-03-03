@@ -7,6 +7,10 @@ public class WoodChoice : MonoBehaviour
     public GameObject ui;
     public AudioSource clip; 
 
+    void Awake()
+    {
+        ui.SetActive(false);
+    }
     void Start()
     {
         ui.SetActive(false);
