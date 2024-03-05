@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
+using System.IO.Ports;
 
 // https://www.youtube.com/watch?v=jrPTpD2eAMw
 
@@ -61,6 +63,15 @@ public class ChangeScenes : MonoBehaviour
             SceneManager.LoadScene("Starting scene");
             clip.Play();
         }
+    }
+
+    void OnConnectionEvent(bool received)
+    {
+        print(received);
+    }
+    void OnMessageArrived(string message)
+    {
+        print(message);
     }
 
     // void OnTriggerEnter (Collider player)
