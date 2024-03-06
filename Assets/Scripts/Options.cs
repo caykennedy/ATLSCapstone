@@ -6,6 +6,7 @@ using UnityEngine;
 public class Options : MonoBehaviour
 {
     public GameObject user; 
+    public GameObject userF;
     public GameObject tree; 
     public GameObject ui;
 
