@@ -1,18 +1,18 @@
-#define BUTTON_PIN 7
+int buttonPin= 3;
 void setup()
 {
   Serial.begin(9600);
-  pinMode(BUTTON_PIN, INPUT_PULLUP);
+  pinMode(buttonPin, INPUT_PULLUP);
 }
 void loop()
 {
-  byte buttonState = digitalRead(BUTTON_PIN);
+  int buttonState = digitalRead(buttonPin);
   
-  if (buttonState == LOW) {
-      Serial.println("Button is pressed");
-  }
-  else {
+  if (buttonState == HIGH) {
       Serial.println("Button is not pressed");
   }
-  delay(100);
+  else {
+      Serial.println("Button is pressed");
+  }
+  delay(500);
 }

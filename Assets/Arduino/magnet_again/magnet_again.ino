@@ -5,7 +5,7 @@ int sensorPin = A0;
 void setup() {
   Serial.begin(9600);
 //  //pinMode(LEDPin, OUTPUT);
-//  pinMode(HALLPin, INPUT);
+ pinMode(sensorPin, INPUT);
 
 }
 void loop() {

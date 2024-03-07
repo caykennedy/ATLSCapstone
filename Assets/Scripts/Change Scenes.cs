@@ -72,13 +72,21 @@ public class ChangeScenes : MonoBehaviour
     void OnMessageArrived(string message)
     {
         print(message);
+        if(message == "Button is pressed")
+        {
+            SceneManager.LoadScene("Enchanted Woods");
+        }
+        if(message == "No Magnet :(")
+        {
+            SceneManager.LoadScene("Crystal Cave");
+        }
     }
 
-    // void OnTriggerEnter (Collider player)
-    // {
-    //     Debug.Log("entering");
-    //     changeScene();
-    // }
+    void OnTriggerEnter (Collider player)
+    {
+        Debug.Log("entering");
+        changeScene();
+    }
 
     public void enchantedWoods()
     {

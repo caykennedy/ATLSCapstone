@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// using System.IO.Ports;
+using System.IO;
+using System.IO.Ports;
 
 public class Options : MonoBehaviour
 {
@@ -36,6 +37,36 @@ public class Options : MonoBehaviour
         showPathOfWisps();
     }
 
+    void OnConnectionEvent(bool received)
+    {
+        print(received);
+    }
+    void OnMessageArrived(string message)
+    {
+        print(message);
+        if(message == "Fairy Town is pressed")
+        {
+            option1.SetActive(true);
+            Debug.Log("showing Fairy Town");
+            tree.SetActive(false); 
+            ui.SetActive(false);
+            user.transform.Rotate(0f, -45f, 0);
+
+            // start playing particle system
+            fairyDust.Play(); 
+            Destroy(gameObject, fairyDust.main.duration);
+        }
+        if(message == "Path of Wisps is pressed")
+        {
+            option2.SetActive(true);
+            Debug.Log("showing Path of Wisps");
+            tree.SetActive(false); 
+            ui.SetActive(false);
+            user.transform.Rotate(0f, 90f, 0);
+
+            // StartCoroutine(wispCoroutine());
+        }
+    }
     public void showFairyTown()
     {
 
