@@ -25,14 +25,14 @@ namespace PathCreation.Examples
         {
             if (pathCreator != null)
             {
-                if(Input.GetKeyDown(KeyCode.UpArrow))
+                if(Input.GetKeyDown(KeyCode.UpArrow) && speed <= 0.2)
                 {
-                    speed += 0.06f;
+                    speed += 0.1f;
                     distanceTravelled += speed * Time.deltaTime;
                 }
-                if(Input.GetKeyDown(KeyCode.DownArrow))
+                if(Input.GetKeyDown(KeyCode.DownArrow) && speed >= 0.06)
                 {
-                    speed -= 0.06f;
+                    speed -= 0.1f;
                     distanceTravelled += speed * Time.deltaTime;
                 }
                 distanceTravelled += speed * Time.deltaTime;
