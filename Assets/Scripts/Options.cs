@@ -70,7 +70,7 @@ public class Options : MonoBehaviour
     public void showFairyTown()
     {
 
-        if(Input.GetKeyDown("1"))
+        if(Input.GetKeyDown("2"))
         {
             option1.SetActive(true);
             Debug.Log("showing Fairy Town");
@@ -88,7 +88,7 @@ public class Options : MonoBehaviour
     {
         // Debug.Log("choosing Path of Wisps");
         // serialController.SendSerialMessage("2");
-        if(Input.GetKeyDown("2"))
+        if(Input.GetKeyDown("1"))
         {
             option2.SetActive(true);
             Debug.Log("showing Path of Wisps");
