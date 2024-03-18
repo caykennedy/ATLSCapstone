@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WoodChoice : MonoBehaviour
 {
+    public Transform player;
     public GameObject ui;
     public GameObject SerialController;
     public GameObject opSerialController;
@@ -19,6 +20,21 @@ public class WoodChoice : MonoBehaviour
         ui.SetActive(false);
         opSerialController.SetActive(false);
         SerialController.SetActive(true);
+    }
+
+    bool ishit =false;
+    void Update()
+    {
+        if(Vector3.Distance(transform.position,player.position) <= 10f && ishit == false){
+            ishit = true;
+            // distance_between = transform.position - player.position; 
+            Debug.Log("hit");   
+            clip.Play();
+            ui.SetActive(true);
+            opSerialController.SetActive(true);
+            SerialController.SetActive(false);
+        }
+        //  Debug.Log(Vector3.Distance(transform.position,player.position));   
     }
     void OnTriggerEnter (Collider player)
     {

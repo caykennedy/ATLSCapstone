@@ -7,6 +7,7 @@ using System.IO.Ports;
 public class Options : MonoBehaviour
 {
     public GameObject user; 
+    public GameObject cube;
     public GameObject userF;
     public GameObject tree; 
     public GameObject ui;
@@ -67,22 +68,6 @@ public class Options : MonoBehaviour
             // StartCoroutine(wispCoroutine());
         }
     }
-    public void showFairyTown()
-    {
-
-        if(Input.GetKeyDown("2"))
-        {
-            option1.SetActive(true);
-            Debug.Log("showing Fairy Town");
-            tree.SetActive(false); 
-            ui.SetActive(false);
-            user.transform.Rotate(0f, -45f, 0);
-
-            // start playing particle system
-            fairyDust.Play(); 
-            Destroy(gameObject, fairyDust.main.duration);
-        }
-    }
 
     public void showPathOfWisps()
     {
@@ -95,8 +80,27 @@ public class Options : MonoBehaviour
             tree.SetActive(false); 
             ui.SetActive(false);
             user.transform.Rotate(0f, 90f, 0);
-
+            user.SetActive(false);
+            cube.SetActive(false);
             // StartCoroutine(wispCoroutine());
+        }
+    }
+    public void showFairyTown()
+    {
+
+        if(Input.GetKeyDown("2"))
+        {
+            option1.SetActive(true);
+            Debug.Log("showing Fairy Town");
+            tree.SetActive(false); 
+            ui.SetActive(false);
+            user.transform.Rotate(0f, -45f, 0);
+            user.SetActive(false);
+            cube.SetActive(false);
+
+            // start playing particle system
+            fairyDust.Play(); 
+            Destroy(gameObject, fairyDust.main.duration);
         }
     }
 
