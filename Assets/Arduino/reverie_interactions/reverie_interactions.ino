@@ -45,10 +45,10 @@ void CrystalCave()
 {
   int sensorValue = analogRead(sensorPin);
   Serial.println(sensorValue);
-  if(sensorValue <= 1012){
-    Serial.println("A wild Magnet has appeared");
+  if(sensorValue <= 700){
+    Serial.println("No Magnet :(");
   }else{
-       Serial.println("No Magnet :(");
+       Serial.println("A wild Magnet has appeared");
   }
   delay(500);
 }
