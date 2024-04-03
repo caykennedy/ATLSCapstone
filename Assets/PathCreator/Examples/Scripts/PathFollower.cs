@@ -1,4 +1,8 @@
 ﻿using UnityEngine;
+using System.IO;
+using System.IO.Ports;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace PathCreation.Examples
 {
@@ -24,7 +28,26 @@ namespace PathCreation.Examples
         void Update()
         {
             if (pathCreator != null)
-            {
+            { 
+                void OnConnectionEvent(bool received)
+                {
+                    print(received);
+                }
+                void OnMessageArrived(string message)
+                {
+                    print(message);
+                    if(message == "Slow!"&& speed >= 0.06)
+                    {
+                        speed -= 0.1f;
+                        distanceTravelled += speed * Time.deltaTime;
+                    }
+
+                    if (message == "Fast!" && speed <= 0.2)
+                    {
+                        speed += 0.1f;
+                        distanceTravelled += speed * Time.deltaTime;
+                    }
+                }
                 if(Input.GetKeyDown(KeyCode.UpArrow) && speed <= 0.2)
                 {
                     speed += 0.1f;

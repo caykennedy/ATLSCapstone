@@ -72,7 +72,7 @@ public class ChangeScenes : MonoBehaviour
     void OnMessageArrived(string message)
     {
         print(message);
-        if(message == "Button is pressed")
+        if(message == "No lantern!")
         {
             SceneManager.LoadScene("Enchanted Woods");
         }
