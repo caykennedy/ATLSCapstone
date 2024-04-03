@@ -16,6 +16,7 @@ public class Options : MonoBehaviour
     public GameObject option2;
 
     public ParticleSystem fairyDust;
+    public AudioSource fairyGiggles; 
 
     public GameObject[] wisps; 
 
@@ -100,6 +101,7 @@ public class Options : MonoBehaviour
 
             // start playing particle system
             fairyDust.Play(); 
+            fairyGiggles.Play();
             Destroy(gameObject, fairyDust.main.duration);
         }
     }
