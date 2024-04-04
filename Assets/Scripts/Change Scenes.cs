@@ -52,6 +52,8 @@ public class ChangeScenes : MonoBehaviour
     void Update()
     {
         // changeScene();
+        pathofWisps();
+        fairyTown();
         enchantedWoods();
         crystalCave();
         startingScene();
@@ -75,11 +77,27 @@ public class ChangeScenes : MonoBehaviour
     void OnMessageArrived(string message)
     {
         print(message);
+
+        if(message == "Fairy Town is pressed" && currentScene != "Fairy Town")
+        {
+            SceneManager.LoadScene("Fairy Town");
+            currentScene = "Fairy Town";
+        }
+        if(message == "Path of Wisps is pressed" && currentScene != "Path of the Wisps")
+        {
+            SceneManager.LoadScene("Fairy Town");
+            currentScene = "Fairy Town";
+
+            // StartCoroutine(wispCoroutine());
+        }
+        
         // if(message == "No lantern!" && currentScene != "Enchanted Woods")
         // {
         //     SceneManager.LoadScene("Enchanted Woods");
         //     currentScene = "Enchanted Woods";
         // }
+
+        
         if(message == "No Magnet :(" && currentScene != "Crystal Cave")
         {
             SceneManager.LoadScene("Crystal Cave");
@@ -93,6 +111,22 @@ public class ChangeScenes : MonoBehaviour
         changeScene();
     }
 
+    public void pathofWisps()
+    {
+        if(Input.GetKeyDown("1"))
+        {
+            SceneManager.LoadScene("Path of the Wisps");
+            currentScene = "Path of the Wisps";
+        }
+    }
+    public void fairyTown()
+    {
+        if(Input.GetKeyDown("2"))
+        {
+            SceneManager.LoadScene("Fairy Town");
+            currentScene = "Fairy Town";
+        }
+    }
     public void enchantedWoods()
     {
         if(Input.GetKeyDown("3"))
