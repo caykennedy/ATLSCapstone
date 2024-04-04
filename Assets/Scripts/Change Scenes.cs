@@ -85,8 +85,8 @@ public class ChangeScenes : MonoBehaviour
         }
         if(message == "Path of Wisps is pressed" && currentScene != "Path of the Wisps")
         {
-            SceneManager.LoadScene("Fairy Town");
-            currentScene = "Fairy Town";
+            SceneManager.LoadScene("Path of the Wisps");
+            currentScene = "Path of the Wisps";
 
             // StartCoroutine(wispCoroutine());
         }
