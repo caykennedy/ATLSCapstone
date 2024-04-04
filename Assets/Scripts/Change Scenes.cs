@@ -11,7 +11,8 @@ public class ChangeScenes : MonoBehaviour
 {
     // public static SceneManager Instance;
     public string sceneName;
-    public AudioSource clip; 
+    public AudioSource clip;
+    string currentScene;
 
     
     // private void Awake()
@@ -53,6 +54,7 @@ public class ChangeScenes : MonoBehaviour
         // changeScene();
         enchantedWoods();
         crystalCave();
+        startingScene();
     }
     
     public void changeScene()
@@ -61,6 +63,7 @@ public class ChangeScenes : MonoBehaviour
         if(Input.GetKey(KeyCode.KeypadEnter) || Input.GetKeyDown("Enter"))
         {
             SceneManager.LoadScene("Starting scene");
+            currentScene = "Starting Scene";
             clip.Play();
         }
     }
@@ -72,13 +75,15 @@ public class ChangeScenes : MonoBehaviour
     void OnMessageArrived(string message)
     {
         print(message);
-        if(message == "No lantern!")
-        {
-            SceneManager.LoadScene("Enchanted Woods");
-        }
-        if(message == "No Magnet :(")
+        // if(message == "No lantern!" && currentScene != "Enchanted Woods")
+        // {
+        //     SceneManager.LoadScene("Enchanted Woods");
+        //     currentScene = "Enchanted Woods";
+        // }
+        if(message == "No Magnet :(" && currentScene != "Crystal Cave")
         {
             SceneManager.LoadScene("Crystal Cave");
+            currentScene = "Crystal Cave";
         }
     }
 
@@ -93,6 +98,7 @@ public class ChangeScenes : MonoBehaviour
         if(Input.GetKeyDown("3"))
         {
             SceneManager.LoadScene("Enchanted Woods");
+            currentScene = "Enchanted Woods";
         }
     }
     public void crystalCave()
@@ -100,6 +106,16 @@ public class ChangeScenes : MonoBehaviour
         if(Input.GetKeyDown("4"))
         {
             SceneManager.LoadScene("Crystal Cave");
+            currentScene = "Crystal Cave";
+        }
+    }
+
+    public void startingScene()
+    {
+        if(Input.GetKeyDown("5"))
+        {
+            SceneManager.LoadScene("Starting Scene");
+            currentScene = "Starting Scene";
         }
     }
 }
