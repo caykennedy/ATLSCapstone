@@ -80,11 +80,11 @@ void speedControl()
   int leverVal = digitalRead(branchPin);
   if (leverVal == LOW)
   {
-    Serial.println("Slow!");
+    Serial.println("Fast!");
   }
   else
   {
-    Serial.println("Fast!");
+    Serial.println("Slow!");
   }
   delay(500);
 }
