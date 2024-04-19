@@ -10,11 +10,11 @@ public class WoodChoice : MonoBehaviour
     public GameObject opSerialController;
     public AudioSource clip; 
 
-    void Awake()
-    {
-        ui.SetActive(false);
-        opSerialController.SetActive(false);
-    }
+    // void Awake()
+    // {
+    //     ui.SetActive(false);
+    //     opSerialController.SetActive(false);
+    // }
     void Start()
     {
         ui.SetActive(false);
@@ -25,7 +25,7 @@ public class WoodChoice : MonoBehaviour
     bool ishit =false;
     void Update()
     {
-        if(Vector3.Distance(transform.position,player.position) <= 10f && ishit == false){
+        if(Vector3.Distance(transform.position,player.position) <= 12.5f && ishit == false){
             ishit = true;
             // distance_between = transform.position - player.position; 
             Debug.Log("hit");   
@@ -34,7 +34,9 @@ public class WoodChoice : MonoBehaviour
             opSerialController.SetActive(true);
             SerialController.SetActive(false);
         }
-        //  Debug.Log(Vector3.Distance(transform.position,player.position));   
+        // Debug.Log(Vector3.Distance(transform.position,player.position));
+        // Debug.Log(ishit);
+
     }
     void OnTriggerEnter (Collider player)
     {
