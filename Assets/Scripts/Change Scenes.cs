@@ -14,6 +14,9 @@ public class ChangeScenes : MonoBehaviour
     public AudioSource clip;
     string currentScene;
 
+    public AudioSource mushroom1, mushroom2, sword; 
+    public float delayTime = 5f;
+
     
     // private void Awake()
     // {
@@ -80,11 +83,13 @@ public class ChangeScenes : MonoBehaviour
 
         if(message == "Fairy Town is pressed" && currentScene != "Fairy Town")
         {
+            mushroom2.Play();
             SceneManager.LoadScene("Fairy Town");
             currentScene = "Fairy Town";
         }
         if(message == "Path of Wisps is pressed" && currentScene != "Path of the Wisps")
         {
+            mushroom1.Play();
             SceneManager.LoadScene("Path of the Wisps");
             currentScene = "Path of the Wisps";
 
@@ -100,6 +105,8 @@ public class ChangeScenes : MonoBehaviour
         
         if(message == "No Magnet :(" && currentScene != "Crystal Cave")
         {
+            sword.Play();
+            yield return new WaitForSeconds(5);
             SceneManager.LoadScene("Crystal Cave");
             currentScene = "Crystal Cave";
         }
@@ -115,6 +122,7 @@ public class ChangeScenes : MonoBehaviour
     {
         if(Input.GetKeyDown("1"))
         {
+            mushroom1.Play();
             SceneManager.LoadScene("Path of the Wisps");
             currentScene = "Path of the Wisps";
         }
@@ -123,6 +131,7 @@ public class ChangeScenes : MonoBehaviour
     {
         if(Input.GetKeyDown("2"))
         {
+            mushroom2.Play();
             SceneManager.LoadScene("Fairy Town");
             currentScene = "Fairy Town";
         }
@@ -139,6 +148,7 @@ public class ChangeScenes : MonoBehaviour
     {
         if(Input.GetKeyDown("4"))
         {
+            sword.Play();
             SceneManager.LoadScene("Crystal Cave");
             currentScene = "Crystal Cave";
         }
