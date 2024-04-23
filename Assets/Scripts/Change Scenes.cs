@@ -106,7 +106,6 @@ public class ChangeScenes : MonoBehaviour
         if(message == "No Magnet :(" && currentScene != "Crystal Cave")
         {
             sword.Play();
-            yield return new WaitForSeconds(5);
             SceneManager.LoadScene("Crystal Cave");
             currentScene = "Crystal Cave";
         }
