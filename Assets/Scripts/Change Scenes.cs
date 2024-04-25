@@ -147,6 +147,7 @@ public class ChangeScenes : MonoBehaviour
     {
         if(Input.GetKeyDown("4"))
         {
+            Debug.Log("key 4 is pressed");
             sword.Play();
             SceneManager.LoadScene("Crystal Cave");
             currentScene = "Crystal Cave";
