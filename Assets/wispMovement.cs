@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class wispMovement : MonoBehaviour
 {
-    public AnimationCurve myCurve;
+    public Transform player;
+    public float wispDist = 50;
+    private bool isActive = false;
+    public GameObject thisWisp;
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(transform.position.x, myCurve.Evaluate((Time.time % myCurve.length)), transform.position.z);
+       if (isActive == false && Vector3.Distance(transform.position, player.position) <= wispDist){
+        thisWisp.SetActive(true);
+        isActive = true;
+       }
+       if (isActive == true && Vector3.Distance(transform.position, player.position) > wispDist){
+        thisWisp.SetActive(false);
+        isActive = false;
+       }
     }
 }
