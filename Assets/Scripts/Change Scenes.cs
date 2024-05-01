@@ -16,7 +16,11 @@ public class ChangeScenes : MonoBehaviour
 
     public AudioSource mushroom1, mushroom2, sword; 
     public float delayTime = 5f;
-
+    public bool canEnchant = false;
+    public bool canFight = false;
+    public bool canFairy = true;
+    public bool canWisp = true;
+    public GameObject player;
     
     // private void Awake()
     // {
@@ -81,33 +85,40 @@ public class ChangeScenes : MonoBehaviour
     {
         print(message);
 
-        if(message == "Fairy Town is pressed" && currentScene != "Fairy Town")
+        if(message == "Fairy Town is pressed" && canFairy == true)
         {
             mushroom2.Play();
             SceneManager.LoadScene("Fairy Town");
-            currentScene = "Fairy Town";
+            canFairy = false;
+            canWisp = false;
         }
-        if(message == "Path of Wisps is pressed" && currentScene != "Path of the Wisps")
+        if(message == "Path of Wisps is pressed" && canWisp == true)
         {
             mushroom1.Play();
             SceneManager.LoadScene("Path of the Wisps");
-            currentScene = "Path of the Wisps";
+            canWisp = false;
+            canFairy = false;
 
             // StartCoroutine(wispCoroutine());
         }
         
-        // if(message == "No lantern!" && currentScene != "Enchanted Woods")
-        // {
-        //     SceneManager.LoadScene("Enchanted Woods");
-        //     currentScene = "Enchanted Woods";
-        // }
+        if(message == "No lantern!" && canEnchant == true)
+        {
+            SceneManager.LoadScene("Enchanted Woods");
+            canEnchant = false;
+            canWisp = false;
+            canFairy = false;
+        }
 
         
-        if(message == "No Magnet :(" && currentScene != "Crystal Cave")
+        if(message == "No Magnet :(" && canFight == true)
         {
             sword.Play();
             SceneManager.LoadScene("Crystal Cave");
-            currentScene = "Crystal Cave";
+            canEnchant = false;
+            canFairy = false;
+            canWisp = false;
+            canFight = false;
         }
     }
 

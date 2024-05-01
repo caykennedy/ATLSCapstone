@@ -48,7 +48,7 @@ void WoodChoices()
   else {
       Serial.println("Buttons are not pressed");
   }
-  delay(500);
+  //delay(500);
 }
 
 void CrystalCave()
@@ -60,7 +60,7 @@ void CrystalCave()
   }else{
        Serial.println("A wild Magnet has appeared");
   }
-  delay(500);
+  //delay(500);
 }
 
 void enchantedWoods()
@@ -72,7 +72,7 @@ void enchantedWoods()
   else{
     Serial.println("Lantern be sitting.");
   }
-  delay(500);
+  //delay(500);
 }
 
 void speedControl()
@@ -86,5 +86,5 @@ void speedControl()
   {
     Serial.println("Slow!");
   }
-  delay(500);
+  //delay(500);
 }
