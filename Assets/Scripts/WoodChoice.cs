@@ -32,7 +32,7 @@ public class WoodChoice : MonoBehaviour
             clip.Play();
             ui.SetActive(true);
             //opSerialController.SetActive(true);
-            SerialController.SetActive(false);
+            // SerialController.SetActive(false);
         }
         // Debug.Log(Vector3.Distance(transform.position,player.position));
         // Debug.Log(ishit);
