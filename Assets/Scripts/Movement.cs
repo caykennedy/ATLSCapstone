@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour
     private void Start()
     {
 
-        // capsule = GetComponent<Rigidbody>(); 
+        capsule = GetComponent<Rigidbody>(); 
         capsule.freezeRotation = true; 
 
         // controller = gameObject.AddComponent<CharacterController>();

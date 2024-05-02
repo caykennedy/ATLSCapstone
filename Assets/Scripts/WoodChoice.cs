@@ -7,7 +7,7 @@ public class WoodChoice : MonoBehaviour
     public Transform player;
     public GameObject ui;
     public GameObject SerialController;
-    public GameObject opSerialController;
+    //public GameObject opSerialController;
     public AudioSource clip; 
 
     // void Awake()
@@ -18,7 +18,7 @@ public class WoodChoice : MonoBehaviour
     void Start()
     {
         ui.SetActive(false);
-        opSerialController.SetActive(false);
+        //opSerialController.SetActive(false);
         SerialController.SetActive(true);
     }
 
@@ -31,7 +31,7 @@ public class WoodChoice : MonoBehaviour
             Debug.Log("hit");   
             clip.Play();
             ui.SetActive(true);
-            opSerialController.SetActive(true);
+            //opSerialController.SetActive(true);
             SerialController.SetActive(false);
         }
         // Debug.Log(Vector3.Distance(transform.position,player.position));
@@ -47,14 +47,14 @@ public class WoodChoice : MonoBehaviour
     {
         Debug.Log("Showing option for Fairies | Will O' the Wisp");
         ui.SetActive(true);
-        opSerialController.SetActive(true);
+        //opSerialController.SetActive(true);
         SerialController.SetActive(false);
     }
     void OnTriggerExit (Collider player)
     {
         Debug.Log("Stepped away from tree");
         ui.SetActive(false);
-        opSerialController.SetActive(false);
+        //opSerialController.SetActive(false);
         SerialController.SetActive(true);
     }
 }
