@@ -48,7 +48,7 @@ public class WoodChoice : MonoBehaviour
         Debug.Log("Showing option for Fairies | Will O' the Wisp");
         ui.SetActive(true);
         //opSerialController.SetActive(true);
-        SerialController.SetActive(false);
+        SerialController.SetActive(true);
     }
     void OnTriggerExit (Collider player)
     {
